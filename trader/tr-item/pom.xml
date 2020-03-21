@@ -9,13 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.trader.service</groupId>
     <artifactId>tr-item</artifactId >
     <packaging>pom</packaging>
     <modules>
         <module>tr-item-interface</module>
         <module>tr-item-service</module>
     </modules>
-
-
 </project>

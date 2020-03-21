@@ -11,6 +11,7 @@
         <module name="tr-item-interface" />
         <module name="tr-item-service" />
         <module name="tr-gateway" />
+        <module name="tr-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13" />

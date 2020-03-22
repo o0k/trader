@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa1f6b6-0ba1-46e9-bd08-ce6a706beb1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-common/src/main/java/cn/trader/common/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-common/src/main/java/cn/trader/common/utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-common/src/main/java/cn/trader/common/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-common/src/main/java/cn/trader/common/utils/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-item/tr-item-interface/src/main/java/cn/trader/item/pojo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-item/tr-item-service/src/main/java/cn/trader/item/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-common/src/main/java/cn/trader/common/advice/CommonExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-common/src/main/java/cn/trader/common/enums/ExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-common/src/main/java/cn/trader/common/exception/TrException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-item/tr-item-service/src/main/java/cn/trader/item/web/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-item/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-item/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tr-item/tr-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-item/tr-item-interface/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tr-item/tr-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-item/tr-item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/■■■■■■.md" beforeDir="false" afterPath="$PROJECT_DIR$/■■■■■■.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-item/tr-item-service/src/main/java/cn/trader/item/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr-item/tr-item-service/src/main/java/cn/trader/item/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-item/tr-item-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-item/tr-item-service/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +29,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1ZNfnac81E0PrShoClsVHjo7kKs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,7 +62,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33956388" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,6 +71,7 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn compile" />
       <command value="mvn clean" />
     </option>
   </component>
@@ -133,9 +136,14 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.22410546" />
+        <option name="contentProportion" value="0.21637817" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6a43753f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -159,7 +167,20 @@
       <workItem from="1584796920571" duration="663000" />
       <workItem from="1584797598487" duration="45000" />
       <workItem from="1584797649626" duration="39000" />
+      <workItem from="1584798605613" duration="1422000" />
+      <workItem from="1584800227298" duration="293000" />
+      <workItem from="1584852761885" duration="14530000" />
+      <workItem from="1584874525648" duration="1853000" />
+      <workItem from="1584877105301" duration="422000" />
     </task>
+    <task id="LOCAL-00001" summary="pom有个bug暂时没有解决">
+      <created>1584798685769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584798685769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
